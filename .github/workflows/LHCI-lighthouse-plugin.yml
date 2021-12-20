@@ -10,6 +10,6 @@ jobs:
         uses: ./
         with:
           urls: |
-            https://www.example.com/
+            https://www.fargonissan.com/online-shopper/
           configPath: '.github/lighthouse/lighthouserc-plugin.js'
           temporaryPublicStorage: true
