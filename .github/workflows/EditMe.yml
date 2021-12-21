@@ -9,7 +9,7 @@ jobs:
         uses: treosh/lighthouse-ci-action@v8
         with:
           urls: |
-            https://www.desrs.com/
+            https://www.desrs.com
             https://www.desrs.com/locations/LITTLEFALLS_MN.html
           budgetPath: ./budget.json # test performance budgets
           uploadArtifacts: true # save results as an action artifacts
