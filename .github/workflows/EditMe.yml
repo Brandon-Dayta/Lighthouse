@@ -9,8 +9,8 @@ jobs:
         uses: treosh/lighthouse-ci-action@v8
         with:
           urls: |
-            https://tru-stone.com/
-            https://www.tru-stone.com/pages/contact.html
+            https://www.northernstatessupply.com/
+            https://www.northernstatessupply.com/Form/Display/quotes
           budgetPath: ./budget.json # test performance budgets
           uploadArtifacts: true # save results as an action artifacts
           temporaryPublicStorage: true # upload lighthouse report to the temporary storage
